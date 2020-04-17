@@ -24,6 +24,10 @@
   color: white;
 }
 
+text {
+  font-family: 'Crimson Text', serif;
+}
+
 .App-link {
   color: #61dafb;
 }
