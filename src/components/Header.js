@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Avatar } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 import {
   makeStyles,
   createMuiTheme,
@@ -54,13 +54,32 @@ export default function Header() {
               </Link>
             </Grid>
             <Grid item>
-              <a href={Constants.GIT_URL} target="_blank">
+              <a
+                href={Constants.GIT_URL}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
                 <Typography
                   color="primary"
                   variant="h5"
                   style={{ textDecorationLine: "underline" }}
                 >
                   Git
+                </Typography>
+              </a>
+            </Grid>
+            <Grid item>
+              <a
+                href={Constants.LINKEDIN_URL}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                <Typography
+                  color="primary"
+                  variant="h5"
+                  style={{ textDecorationLine: "underline" }}
+                >
+                  Linkedin
                 </Typography>
               </a>
             </Grid>

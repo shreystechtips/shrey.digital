@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+import App from "./Pages/App";
+import Projects from "./Pages/Projects";
+import Error_404 from "./Pages/Error_404";
 import * as serviceWorker from "./serviceWorker";
-import { Router, Route, browserHistory, IndexRoute } from "react-router";
+import { Router, Route } from "react-router";
 import { createBrowserHistory } from "history";
-import * as Constants from "./Constants.js"
+import * as Constants from "./Constants.js";
 
 var history = createBrowserHistory({});
 // ReactDOM.render(
@@ -17,7 +19,7 @@ var history = createBrowserHistory({});
 
 ReactDOM.render(
   <Router history={history}>
-    <Route path="/" component={App} />
+    <Route exact path="/projects" component={Projects} />
     <Route
       path="/git"
       component={() => {
@@ -25,6 +27,8 @@ ReactDOM.render(
         return null;
       }}
     />
+    <Route exact path="/" component={App} />
+    <Route component={Error_404} />
   </Router>,
   document.getElementById("root")
 );
