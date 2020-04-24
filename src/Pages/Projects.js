@@ -55,13 +55,13 @@ export default function Projects() {
 
   return (
     <div className={classes.root}>
-      <br />
       <Center>
         <div
           style={{
             maxWidth: "1500px",
             width: "90vw",
             paddingBottom: style.spacing(2),
+            paddingTop: style.spacing(7),
             justifyContent: "center",
           }}
         >
