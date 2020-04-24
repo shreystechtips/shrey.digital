@@ -1,37 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./Pages/App";
-import Projects from "./Pages/Projects";
-import Error_404 from "./Pages/Error_404";
 import * as serviceWorker from "./serviceWorker";
-import { Router, Route, Switch } from "react-router";
-import { createBrowserHistory } from "history";
-import * as Constants from "./Constants.js";
-var history = createBrowserHistory({});
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
+import { ThemeProvider } from "@material-ui/core/styles";
+import theme from './style.js';
+import {BrowserRouter} from 'react-router-dom';
+import App from "./App"
 
 ReactDOM.render(
-  <Router history={history}>
-    <Switch>
-      <Route exact path="/projects" component={Projects} />
-      <Route
-        exact
-        path="/git"
-        component={() => {
-          window.location.href = Constants.GIT_URL;
-          return null;
-        }}
-      />
-      <Route exact path="/" component={App} />
-      <Route component={Error_404} />
-    </Switch>
-  </Router>,
+  <BrowserRouter>
+  <React.StrictMode>
+    <ThemeProvider theme={theme}>
+    <App />
+    </ThemeProvider>
+  </React.StrictMode>
+  </BrowserRouter>,
   document.getElementById("root")
 );
 
