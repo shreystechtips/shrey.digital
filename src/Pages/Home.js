@@ -47,7 +47,7 @@ export default function Home() {
             <p>
               Hey! I'm a graduating senior from Newport High School in Seattle,
               WA and an incoming Electrical Engineering and Computer Science
-              Major at the UC Berkeley.
+              Major at UC Berkeley.
             </p>
             <p>
               I enjoy creating impactful and practical projects, from
@@ -63,7 +63,7 @@ export default function Home() {
               opportunities to learn more and gain industry experience. I love
               traversing the universe of possibilities. I'm open, so feel free
               to message me on LinkedIn or email me at &nbsp;
-              <u>shreyaeron[at]hotmail[dot]com</u>
+              <a href"mailto:shreyaeron@hotmail.com">shreyaeron[at]hotmail[dot]com</a>
             </p>
           </Typography>
         </div>
