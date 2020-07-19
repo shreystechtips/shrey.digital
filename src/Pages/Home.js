@@ -63,7 +63,13 @@ export default function Home() {
               opportunities to learn more and gain industry experience. I love
               traversing the universe of possibilities. I'm open, so feel free
               to message me on LinkedIn or email me at &nbsp;
-              <a href="mailto:shreyaeron@hotmail.com">shreyaeron[at]hotmail[dot]com</a>
+              <a
+                href="mailto:aeron@berkeley.edu"
+                style={{ textDecoration: "underline", color: "inherit" }}
+                color="primary"
+              >
+                aeron[at]berkeley[dot]edu
+              </a>
             </p>
           </Typography>
         </div>
