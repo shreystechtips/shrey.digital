@@ -42,6 +42,21 @@ export default function Header() {
           spacing={2}
         >
           <Grid item>
+            <a
+              href={Constants.NOTES_BLOG_URL}
+              target="_blank"
+              rel="noopener nofollow"
+            >
+              <Typography
+                color="primary"
+                variant="h5"
+                style={{ textDecorationLine: "underline" }}
+              >
+                Class Notes
+              </Typography>
+            </a>
+          </Grid>
+          <Grid item>
             <Link to="/projects">
               <Typography
                 color="primary"
