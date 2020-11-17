@@ -45,24 +45,21 @@ export default function Home() {
             style={{ textAlign: "left", textIndent: style.spacing(3) }}
           >
             <p>
-              Hey! I'm a graduating senior from Newport High School in Seattle,
-              WA and an incoming Electrical Engineering and Computer Science
-              Major at UC Berkeley.
+              Hey! I'm a freshman at UC Berkeley studying Electrical Engineering and Computer Science
+              Major.
             </p>
             <p>
-              I enjoy creating impactful and practical projects, from
-              simplifying data collection to increasing access to information.
+              I enjoy bringing my ideas to life and sharing my ideas via academic publications. My interests 
+              include Natural Language Processing and System Design, but I am keen to learn about other fields!
             </p>
             <p>
-              As a member of my high school robotics team, I gained an
+              As a member of a robotics team, I gained an
               appreciation for problem solving and critical thinking as I
               designed mechanisms and user-friendly applications.
             </p>
             <p>
-              Always learning something new, I'm always looking for new
-              opportunities to learn more and gain industry experience. I love
-              traversing the universe of possibilities. I'm open, so feel free
-              to message me on LinkedIn or email me at &nbsp;
+              I'm currently looking for new
+              opportunities to learn more and gain hands-on experience. Please message me on LinkedIn or email me at &nbsp;
               <a
                 href="mailto:aeron@berkeley.edu"
                 style={{ textDecoration: "underline", color: "inherit" }}
