@@ -45,21 +45,20 @@ export default function Home() {
             style={{ textAlign: "left", textIndent: style.spacing(3) }}
           >
             <p>
-              Hey! I'm a freshman at UC Berkeley studying Electrical Engineering and Computer Science
-              Major.
+              Hey! I'm a freshman at UC Berkeley majoring in Electrical Engineering and Computer Science.
             </p>
             <p>
-              I enjoy bringing my ideas to life and sharing my ideas via academic publications. My interests 
+              I enjoy bringing my ideas to life and sharing them. My interests 
               include Natural Language Processing and System Design, but I am keen to learn about other fields!
             </p>
             <p>
               As a member of a robotics team, I gained an
               appreciation for problem solving and critical thinking as I
-              designed mechanisms and user-friendly applications.
+              designed mechanisms and user-centric applications.
             </p>
             <p>
               I'm currently looking for new
-              opportunities to learn more and gain hands-on experience. Please message me on LinkedIn or email me at &nbsp;
+              opportunities to learn and gain hands-on experience. Please message me on LinkedIn or email me at &nbsp;
               <a
                 href="mailto:aeron@berkeley.edu"
                 style={{ textDecoration: "underline", color: "inherit" }}
